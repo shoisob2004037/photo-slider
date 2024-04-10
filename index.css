@@ -199,8 +199,13 @@ body {
     height: 80%;
 }
 
+.box1 p{
+    color: rgb(3, 55, 34);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .box1 h2 {
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .heading{
     text-align: center;
@@ -295,6 +300,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: #3b3663;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 20px;
     line-height: 1.4;
 }
@@ -521,7 +527,7 @@ body {
     }
 
     .quote{
-        font-size: 13px;
+        font-size: 12px;
         
     }
     .author1 {
@@ -647,7 +653,7 @@ body {
         height: 65px;
     }
     .quote {
-        font-size: 13px;
+        font-size: 12px;
         
     }
     .author {
