@@ -55,60 +55,49 @@
         <i class='bx bxs-left-arrow back'></i>
         <div class="gallery">
             <div>
-                <span><img src="1.jpg"> </span>
-                <span><img src="3.jpg"> </span>
+                <span><img src="1.jpg" onclick="showFullImage('1.jpg')"> <div class="caption"> Mormoria,2023</div></span>
+                <span><img src="3.jpg" onclick="showFullImage('3.jpg')"><div class="caption">Noakhali,2023</div> </span>
                 
             </div>
             <div>
-                <span><img src="2.jpg"> </span>
-                <span><img src="4.jpg"> </span>
+                <span><img src="2.jpg" onclick="showFullImage('2.jpg')"> <div class="caption">Padma Shore,Rajshahi,2022</div></span>
+                <span><img src="4.jpg" onclick="showFullImage('4.jpg')"> <div class="caption">Padma Shore,Rajshahi,2023</div></span>
 
             </div>
             <div>
-                <span><img src="5.jpg"> </span>
-                <span><img src="6.jpg"> </span>
+                <span><img src="5.jpg" onclick="showFullImage('5.jpg')"><div class="caption">Nature Image 5</div> </span>
+                <span><img src="6.jpg" onclick="showFullImage('6.jpg')"> <div class="caption">Nature Image 6</div></span>
             </div>
             <div>
-                <span><img src="12.jpg"> </span>
-                <span><img src="11.jpg"> </span>
+                <span><img src="12.jpg" onclick="showFullImage('12.jpg')"><div class="caption">Nature Image 7</div> </span>
+                <span><img src="11.jpg" onclick="showFullImage('11.jpg')"> <div class="caption">Nature Image 8</div></span>
             </div>
             <div>
-                <span><img src="10.jpg"> </span>
-                <span><img src="13.jpg"> </span>
+                <span><img src="10.jpg" onclick="showFullImage('10.jpg')"><div class="caption">Nature Image 9</div> </span>
+                <span><img src="13.jpg" onclick="showFullImage('13.jpg')"> <div class="caption">Nature Image 10</div></span>
             </div>
             <div>
-                <span><img src="14.jpg"> </span>
-                <span><img src="16.jpg"> </span>
+                <span><img src="14.jpg" onclick="showFullImage('14.jpg')"> <div class="caption">Nature Image 11</div></span>
+                <span><img src="16.jpg" onclick="showFullImage('16.jpg')"> <div class="caption">Nature Image 12</div></span>
             </div>
             <div>
-                <span><img src="15.jpg"> </span>
-                <span><img src="17.jpg"> </span>
-            </div>  
-            <div>
-                <span><img src="18.jpg"> </span>
-                <span><img src="19.jpg"> </span>
+                <span><img src="15.jpg" onclick="showFullImage('15.jpg')"> <div class="caption">Nature Image 13</div></span>
+                <span><img src="17.jpg" onclick="showFullImage('17.jpg')"> <div class="caption">Nature Image 14</div></span>
             </div>
             <div>
-                <span><img src="20.jpg"> </span>
-                <span><img src="21.jpg"> </span>
-            </div>
-            <div>
-                <span><img src="22.jpg"> </span>
-                <span><img src="24.jpg"> </span>
-                
-            </div>
-            <div>
-                <span><img src="23.jpg"> </span>
-                <span><img src="25.jpg"> </span>
-            </div>
-            <div>x            
-                <span><img src="26.jpg"> </span>
-                <span><img src="27.jpg"> </span>
+                <span><img src="19.jpg" onclick="showFullImage('19.jpg')"> <div class="caption">Nature Image 15</div></span>
+                <span><img src="18.jpg" onclick="showFullImage('18.jpg')"> <div class="caption">Nature Image 16</div></span>
             </div>
         </div>
         <i class='bx bxs-right-arrow next'></i>
     </div>
+</div>
 </section>
+<div class="nature-photo modal" id="fullImageModal">
+    <span class="close" onclick="closeFullImageModal()">&times;</span>
+    <img class="modal-content" id="fullImage">
+    <div id="caption"></div>
+</div>
     <section id="macro">
     <div class="box1">
         <h2>"Macro Photo Gallery"</h2>
@@ -120,59 +109,64 @@
         <br>
         <div class="gallery">
             <div>
-                <span><img src="31.jpg"> </span>
-                <span><img src="32.jpg"> </span>
+                <span><img src="31.jpg" onclick="showFullImage('31.jpg')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="32.jpg" onclick="showFullImage('32.jpg')"><div class="caption">Nature Image 16</div> </span>
             </div>
             <div>
-                <span><img src="33.jpg"> </span>
-                <span><img src="39.jpg"> </span>
+                <span><img src="33.jpg" onclick="showFullImage('33.jpg')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="39.jpg" onclick="showFullImage('39.jpg')"><div class="caption">Nature Image 16</div> </span>
             </div>
             <div>
-                <span><img src="35.jpg"> </span>
-                <span><img src="37.jpg"> </span>
+                <span><img src="35.jpg" onclick="showFullImage('35.jpg')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="37.jpg" onclick="showFullImage('37.jpg')"><div class="caption">Nature Image 16</div> </span>
             </div>
             <div>
-                <span><img src="36.jpg"> </span>
-                <span><img src="38.jpg"> </span> 
+                <span><img src="36.jpg" onclick="showFullImage('36.jpg')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="38.jpg" onclick="showFullImage('38.jpg')"><div class="caption">Nature Image 16</div> </span> 
             </div>
             <div>
-                <span><img src="34.jpg"> </span>
-                <span><img src="41.jpg"> </span>
+                <span><img src="34.jpg" onclick="showFullImage('34.jpg')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="41.jpg" onclick="showFullImage('41.jpg')"><div class="caption">Nature Image 16</div> </span>
             </div>
             <div>
-                <span><img src="40.jpg"> </span>
-                <span><img src="42.jpg"> </span>
+                <span><img src="40.jpg" onclick="showFullImage('40.jpg')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="42.jpg" onclick="showFullImage('42.jpg')"><div class="caption">Nature Image 16</div> </span>
             </div>
             <div>
-                <span><img src="43.jpg"> </span>
-                <span><img src="44.jpg"> </span>
+                <span><img src="43.jpg" onclick="showFullImage('43.jpg')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="44.jpg" onclick="showFullImage('44.jpg')"><div class="caption">Nature Image 16</div> </span>
                 
             </div>
             <div>
-                <span><img src="45.jpg"> </span>
-                <span><img src="46.jpg"> </span>
+                <span><img src="45.jpg" onclick="showFullImage('45.jpg')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="46.jpg" onclick="showFullImage('46.jpg')"><div class="caption">Nature Image 16</div> </span>
             </div>
             <div>
-                <span><img src="47.jpg"> </span>
-                <span><img src="48.jpg"> </span>
+                <span><img src="47.jpg" onclick="showFullImage('47.jpg')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="48.jpg" onclick="showFullImage('48.jpg')"><div class="caption">Nature Image 16</div> </span>
             </div>
             <div>
-                <span><img src="49.jpg"> </span>
-                <span><img src="52.jpg"> </span>
+                <span><img src="49.jpg" onclick="showFullImage('49.jpg')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="52.jpg" onclick="showFullImage('52.jpg')"><div class="caption">Nature Image 16</div> </span>
                 
             </div>
             <div>
-                <span><img src="51.jpg"> </span>
-                <span><img src="50.jpg"> </span>
+                <span><img src="51.jpg" onclick="showFullImage('51.jpg')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="50.jpg" onclick="showFullImage('50.jpg')"><div class="caption">Nature Image 16</div> </span>
             </div>
             <div>
-                <span><img src="53.jpg"> </span>
-                <span><img src="54.jpg"> </span>
+                <span><img src="53.jpg" onclick="showFullImage('53.jpg')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="54.jpg" onclick="showFullImage('54.jpg')"><div class="caption">Nature Image 16</div> </span>
             </div>
         </div>
         <i class='bx bxs-right-arrow next'></i>
     </div>
 </section>
+<div class="nature-photo modal" id="fullImageModal">
+    <span class="close" onclick="closeFullImageModal()">&times;</span>
+    <img class="modal-content" id="fullImage">
+    <div id="caption"></div>
+</div>
 
 <section id="night">
     <div class="box1">
@@ -185,34 +179,44 @@
         <br>
         <div class="gallery">
             <div>
-                <span><img src="60.jpg"> </span>
-                <span><img src="61.jpeg"> </span>
+                <span><img src="60.jpg" onclick="showFullImage('60.jpg')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="61.jpeg" onclick="showFullImage('61.jpeg')"><div class="caption">Nature Image 16</div> </span>
             </div>
             <div>
-                <span><img src="62.jpeg"> </span>
-                <span><img src="63.jpg"> </span>
+                <span><img src="62.jpeg" onclick="showFullImage('62.jpeg')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="63.jpg" onclick="showFullImage('63.jpg')"><div class="caption">Nature Image 16</div> </span>
             </div>
             <div>
-                <span><img src="64.jpg"> </span>
-                <span><img src="65.jpg"> </span>
+                <span><img src="64.jpg" onclick="showFullImage('64.jpg')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="65.jpg" onclick="showFullImage('65.jpg')"><div class="caption">Nature Image 16</div> </span>
             </div>
             <div>
-                <span><img src="66.jpg"> </span>
-                <span><img src="67.jpeg"> </span>
+                <span><img src="66.jpg" onclick="showFullImage('66.jpg')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="67.jpeg" onclick="showFullImage('51.jpeg')"><div class="caption">Nature Image 16</div> </span>
                 
             </div>
             <div>
-                <span><img src="68.jpeg"> </span>
-                <span><img src="69.jpg"> </span>
+                <span><img src="68.jpeg" onclick="showFullImage('51.jpge')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="69.jpg" onclick="showFullImage('69.jpg')"><div class="caption">Nature Image 16</div> </span>
             </div>
             <div>
-                <span><img src="70.jpg"> </span>
-                <span><img src="71.jpg"> </span>
+                <span><img src="70.jpg" onclick="showFullImage('70.jpg')"><div class="caption">Nature Image 16</div> </span>
+                <span><img src="71.jpg" onclick="showFullImage('71.jpg')"><div class="caption">Nature Image 16</div> </span>
             </div>
         </div>
         <i class='bx bxs-right-arrow next'></i>
     </div>
+    <div class="nature-photo modal" id="fullImageModal">
+    <span class="close" onclick="closeFullImageModal()">&times;</span>
+    <img class="modal-content" id="fullImage">
+    <div id="caption"></div>
+</div>
 </section>
+<div class="nature-photo modal" id="fullImageModal">
+    <span class="close" onclick="closeFullImageModal()">&times;</span>
+    <img class="modal-content" id="fullImage">
+    <div id="caption"></div>
+</div>
 <section id="about">
     <div class="aboutme">
         <p>-About Me-</p>
@@ -259,38 +263,9 @@
         <p> All Pictures are clicked and edited by <i>"Shaisob".</i>This Website is under <i class="fa fa-copyright">Copyright</i></p>
     </div>
 </section>
-    <script>
-        var scroll = new SmoothScroll('a[href*="#"]', {
-        speed: 1000,
-        speedAsDuration: true
-    });
+    <script src="index.js">
+       
 
-        let galleries = document.querySelectorAll(".gallery");
-        let backs = document.querySelectorAll(".back");
-        let nexts = document.querySelectorAll(".next");
-
-        galleries.forEach((gallery, index) => {
-            let back = backs[index];
-            let next = nexts[index];
-            gallery.addEventListener("wheel", (evt) => {
-                evt.preventDefault();
-                gallery.scrollLeft += evt.deltaY;
-            });
-            next.addEventListener("click", ()=> {
-                gallery.style.scrollBehavior ="smooth";
-                gallery.scrollLeft += 900;
-                setTimeout(() => {
-                    gallery.style.scrollBehavior = "auto";
-                }, 2000);
-            });
-            back.addEventListener("click", ()=> {
-                gallery.style.scrollBehavior ="smooth";
-                gallery.scrollLeft -= 900;
-                setTimeout(() => {
-                    gallery.style.scrollBehavior = "auto";
-                }, 2000); 
-            });
-        });
     </script>
 </body>
 </html>
