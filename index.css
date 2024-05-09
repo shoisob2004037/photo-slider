@@ -442,27 +442,6 @@ body {
     display: inline-block;
 }
 
-.gallery-wrap span:hover .caption {
-    opacity: 1;
-}
-
-.caption {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-shadow: 0 0 20px aqua;
-    color: white;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-.caption p {
-    margin: 0;
-    font-size: 14px;
-    text-align: center;
-    font-family: monospace;
-}
-
 @media only screen and (max-width: 768px) {
     .logo{
         width: 60px;
